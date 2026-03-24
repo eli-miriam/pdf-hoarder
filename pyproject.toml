@@ -1,0 +1,15 @@
+[project]
+name = "pdf-organizer"
+version = "0.1.0"
+description = "Local desktop PDF organizer with tagging and search"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+build = [
+  "pyinstaller>=6.0,<7.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
