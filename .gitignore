@@ -1,2 +1,6 @@
 .codex
 .vagrant
+build/
+dist/
+pdf-organizer.spec
+
